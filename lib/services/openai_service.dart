@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 class OpenAIService {
   static const String apiKey =
-      "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";
+      "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";
   static const String baseUrl = "https://api.openai.com/v1/chat/completions";
 
   static Future<String> generateSchedule(
